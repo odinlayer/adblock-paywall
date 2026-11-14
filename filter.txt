@@ -1,4 +1,4 @@
-
+[Adblock Plus 2.0]
 ! Title: OdinLayer AdBlock & Paywall
 ! Description: Custom adblocking and paywall-related resource filters
 ! Homepage: https://github.com/odinlayer/adblock-paywall
