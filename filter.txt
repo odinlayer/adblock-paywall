@@ -43,5 +43,5 @@
 !
 ! --- Connexion France ---
 
-||cdn.connexionfrance.com/api/tinypass.min.js$script
-||www.connexionfrance.com/view-resources/dachser2/public/connexionfrance/pianoPaywall.js$script
+||cdn.connexionfrance.com/api/tinypass.min.js
+||www.connexionfrance.com/view-resources/dachser2/public/connexionfrance/pianoPaywall.js
