@@ -1,0 +1,47 @@
+
+! Title: OdinLayer AdBlock & Paywall
+! Description: Custom adblocking and paywall-related resource filters
+! Homepage: https://github.com/odinlayer/adblock-paywall
+! Version: 1.0.0
+! Last modified: 2026-11-14
+! Expires: 1 day
+!
+! ==========================================
+! HOW TO ADD RULES
+! ==========================================
+!
+! Block a specific URL:
+! ||example.com/path/to/file.js
+!
+! Block a JavaScript file:
+! ||example.com/path/to/file.js$script
+!
+! Block an entire domain:
+! ||ads.example.com^
+!
+! Block a third-party resource:
+! ||example.com/file.js$third-party
+!
+! Block a resource only on a specific website:
+! ||example.com/file.js$domain=website.com
+!
+! Add exceptions (allow a blocked resource):
+! @@||example.com/file.js
+!
+! RULE GUIDELINES:
+! - Add new rules under the relevant website section.
+! - Use ! to add comments.
+! - Use || to match a domain and its subdomains.
+! - Use ^ as a separator/end-of-hostname marker.
+! - Use $script to target JavaScript resources.
+! - Keep one filtering rule per line.
+! - Avoid blocking entire domains when a specific URL is sufficient.
+!
+! ==========================================
+! FILTER RULES
+! ==========================================
+!
+! --- Connexion France ---
+
+||cdn.connexionfrance.com/api/tinypass.min.js$script
+||www.connexionfrance.com/view-resources/dachser2/public/connexionfrance/pianoPaywall.js$script
